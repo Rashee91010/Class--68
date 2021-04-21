@@ -1,0 +1,87 @@
+body{
+text-align:center;
+}
+.profile{
+width:175px;
+margin-bottom:50px;
+border-radius:50%;
+}
+
+#welcome{
+background:linear-gradient(#ffdede 0%, #e0e0ff 100%);
+bottom:0;
+display:table;
+height:100%;
+width:100%;
+z-index:9;
+}
+h1{
+font-size:40px;
+line-height:1.2;
+font-family:fantasy;
+font-weight:300;
+}
+h2{
+font-size:30px;
+line-height:1.2;
+font-family:cursive;
+font-weight:300;
+}
+#name{
+font-size:30px;
+line-height:1.2;
+font-family: 'Pacifico', cursive;
+font-weight:300;
+}
+#bio{
+padding:50px;
+text-align:center;
+font-size:40px;
+}
+.line{
+height:6px;
+background-color:black;
+width:70px;
+margin:8px auto;
+}
+p{
+font-size:18px;
+max-width:450px;
+margin:25px auto;
+line-height:1.3;
+}
+.parallax-inner{
+display:table-cell;
+position:relative;
+text-align:center;
+vertical-align:middle;
+}
+a{
+text-decoration:none;
+}
+.article:hover{
+color:plum;
+}
+#contacts{
+background:antiquewhite;
+}
+#contacts iframe{
+width:100%;
+}
+#writings a{
+text-shadow:none!important;
+text-decoration:underline!important;
+color:blue!important;
+}
+.contact1 a{
+color:darkmagenta;
+text-shadow:none;
+}
+.contact1 h3{
+display:inline;
+}
+.my_nav_bar{
+position:sticky;
+top:0;
+z-index:99999;
+}
